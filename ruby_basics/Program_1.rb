@@ -2,15 +2,15 @@
 
 numbers = [1,2,3,4]
 
-puts numbers.first?
+puts numbers[0]
 
-a = .5
+a = 5
 b = 1
 
 c = a + b
 
 puts c
 
-result =numbers.include(3)
+result =numbers.take(3)
 
 puts result
