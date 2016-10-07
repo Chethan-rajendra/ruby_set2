@@ -68,11 +68,19 @@ end
 
 
 client = User.new
+<<<<<<< HEAD
 client.groupChat("Hi Friends")
 
 client.sendPersonalMessage
 
 # client.sendSecureMessage
+=======
+client2 = Message.new
+
+client.groupChat("Hi friends")
+client.sendPersonalMessage
+
+>>>>>>> 4dde95ae5996e44520c7c407512569dcc1c68ab2
 
 begin
 	client.sendSecureMessage

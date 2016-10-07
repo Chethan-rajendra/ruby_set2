@@ -79,7 +79,15 @@ class Numberof < Number
 	end
 end
 
+<<<<<<< HEAD
 # instantiate a object and check for all code and final number
+=======
+ob1=Numberof.new
+ob1.countryCode
+ob1.cityCode
+
+ob1.phoneNumber
+>>>>>>> 4dde95ae5996e44520c7c407512569dcc1c68ab2
 
 
 

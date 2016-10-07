@@ -1,4 +1,5 @@
 class Divisible
+<<<<<<< HEAD
 
 	def givnum
      	puts "Enter the number"
@@ -12,6 +13,19 @@ class Divisible
     
   		else
   		puts"Can't posible to divide by 3"	
+=======
+	def givnum
+     	puts "Enter the number"
+     	num = gets
+          
+		 remainder = num % 3
+
+  		if remainder == 0
+    	puts"Can"
+    
+  		else
+  		puts"Cant posible"	
+>>>>>>> 4dde95ae5996e44520c7c407512569dcc1c68ab2
     	
 
   		end
