@@ -1,15 +1,17 @@
 class Divisible
+
 	def givnum
      	puts "Enter the number"
-     	num = gets
+     	num = gets.to_i
           
-		 remainder = num % 3
+		 remainder = num%3
 
   		if remainder == 0
-    	puts"Can"
+
+    	puts"#{num} Can Divisible by 3"
     
   		else
-  		puts"Cant posible"	
+  		puts"Can't posible to divide by 3"	
     	
 
   		end
